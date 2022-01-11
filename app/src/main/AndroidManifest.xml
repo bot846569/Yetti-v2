@@ -10,12 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Basic">
         <activity
+            android:name=".howitworks"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity2"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:label="Yetti: The Planet Saver"
-            android:exported="true">
+            android:exported="true"
+            android:label="Yetti: The Planet Saver">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
