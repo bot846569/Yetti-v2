@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="392dp"
-        android:layout_height="96dp"
+        android:layout_width="378dp"
+        android:layout_height="128dp"
         android:layout_marginTop="44dp"
         android:text="- Take the Quiz first to see what your Carbon Footprint rating is, it is important that you do not take the quiz more than once or it will reset your Carbon Footprint Rating."
         android:textColor="#000000"
@@ -22,8 +22,8 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="375dp"
-        android:layout_height="73dp"
+        android:layout_width="382dp"
+        android:layout_height="82dp"
         android:text="- Set an Alarm, this will give you reminders at your specified time to do various small environmentally friendly tasks."
         android:textColor="#000000"
         android:textSize="20sp"
