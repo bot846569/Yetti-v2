@@ -2,4 +2,64 @@
     <string name="app_name">basic</string>
     <string name="button">Button</string>
     <string name="activity_1">activity 1</string>
+    <string-array name="NotificationText">
+        <item>Make sure to recycle any empty bottles you have!</item>
+        <item>Laundry day? Do a cold wash to help the environment and reduce your bill!</item>
+        <item>Don’t waste money and plastic on disposable cutlery, get reusable!</item>
+        <item>Make sure to recycle any product packaging you can!</item>
+        <item>Got old clothes? Sell or donate them!</item>
+        <item>Ditch the printouts and use online documents!</item>
+        <item>Cut down on Dairy foods!</item>
+        <item>Reduce the amount of meat you eat today!</item>
+        <item> Use a Reusable bag for groceries today!</item>
+        <item>Make sure any seafood you purchase is sustainable, check fishwatch.gov for more info!</item>
+        <item>When purchasing light bulbs, look for ones that are energy efficient!</item>
+        <item>Turn off the lights when you leave the room!</item>
+        <item>Turn off the tv when you aren’t watching it!</item>
+        <item>Ditch the car and walk or bike today!</item>
+        <item>Try to Carpool when travelling today!</item>
+        <item>Remember to turn the tap off when you brush your teeth!</item>
+        <item>Shower instead of taking a bath so you can conserve water!</item>
+        <item>Don’t shower for longer than 10 minutes so you can conserve water!</item>
+        <item>Is it nice outside? Ditch the dryer and hang your clothes out in the sun!</item>
+        <item>Don’t use bottled water, drink from the tap to not waste plastic!</item>
+        <item>Cold outside? Avoid the heater and wear a sweater! </item>
+        <item>Going shopping? Get local natural fruits and vegetables! </item>
+        <item>Thinking about going shopping? Order online instead and save the hassle and the ozone layer! </item>
+        <item>Planning on grabbing food from outside? Ditch the plastic utensils and bring something reusable! </item>
+        <item>If you’re going shopping look for something used today to save on manufacturing emissions! </item>
+        <item>Do you love drinking tea? Try loose leaf instead of wasteful paper tea bags! </item>
+        <item>Have a lot of dishes? When you have too many it actually uses less water to run the dishwasher rather than washing them in the sink! </item>
+        <item>Thinking about travelling? Get a one way flight to reduce co2 emissions! </item>
+        <item>When going out, bring a reusable water bottle just in case so you don’t have to buy a disposable one! </item>
+        <item>Not using your devices or appliances? Unplug them to stop them from drawing energy! </item>
+    </string-array>
 </resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

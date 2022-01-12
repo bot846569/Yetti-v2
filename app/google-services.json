@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "121068647373",
+    "project_id": "yetti-1d793",
+    "storage_bucket": "yetti-1d793.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121068647373:android:516827a845ace1a333ca84",
+        "android_client_info": {
+          "package_name": "com.example.basic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121068647373-sl8291n5bh6b1ev2n553p3l9dqr04t3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDWgOSOKqIaZtswEkCgNYVk3JNFGYpKrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121068647373-sl8291n5bh6b1ev2n553p3l9dqr04t3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
