@@ -58,13 +58,13 @@ public class QuizDbHelper extends SQLiteOpenHelper {
         addQuestion(q5);
         Question q6 = new Question("Do you compost?", "Yes","No","C","D",1);
         addQuestion(q6);
-        Question q7 = new Question("Do you purchase coffee in disposable cups often?", "Yes","No","C","D",1);
+        Question q7 = new Question("Do you purchase coffee in disposable cups often?", "Yes","No","C","D",2);
         addQuestion(q7);
         Question q8 = new Question("Do you recycle often?", "Yes","No","C","D",1);
         addQuestion(q8);
         Question q9 = new Question("Do you leave the lights on when not in a room?", "Yes","No","C","D",2);
         addQuestion(q9);
-        Question q10 = new Question("How often do you purchase a new phone?", "Less than 2 years","2 Years +","C","D",1);
+        Question q10 = new Question("How often do you purchase a new phone?", "Less than 2 years","2 Years +","C","D",2);
         addQuestion(q10);
         Question q11 = new Question("Do you often travel by walking/running?", "Yes","No","C","D",1);
         addQuestion(q11);
@@ -72,7 +72,7 @@ public class QuizDbHelper extends SQLiteOpenHelper {
         addQuestion(q12);
         Question q13 = new Question("Do you often travel by car?", "Yes","No","C","D",2);
         addQuestion(q13);
-        Question q14 = new Question("Do you often travel by bus?", "Yes","No","C","D",2);
+        Question q14 = new Question("Do you often travel by bus?", "Yes","No","C","D",1);
         addQuestion(q14);
         Question q15 = new Question("Do you carpool often?", "Yes","No","C","D",1);
         addQuestion(q15);
