@@ -22,8 +22,6 @@ public class notiscreen extends AppCompatActivity {
             public void onClick(View v) {
                 MainActivity.highscore = MainActivity.highscore - 20;
 
-
-
                 openHome();
 
             }
@@ -37,7 +35,6 @@ public class notiscreen extends AppCompatActivity {
 
             }
         });
-
 
     }
     public void openHome() {
