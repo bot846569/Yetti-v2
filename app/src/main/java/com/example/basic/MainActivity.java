@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
         textViewHighscore.setText("" + highscore);
     }
 
-    private void updateHighscore(int highscoreNew) {
+    public void updateHighscore(int highscoreNew) {
         highscore = highscoreNew;
         textViewHighscore.setText("" + highscore);
 
@@ -189,7 +189,7 @@ public class MainActivity extends AppCompatActivity {
                 .setTitleText("Select Alarm Time")
                 .build();
 
-        picker.show(getSupportFragmentManager(),"foxandroid");
+        picker.show(getSupportFragmentManager(),"Yetti");
 
         picker.addOnPositiveButtonClickListener(new View.OnClickListener() {
             @Override

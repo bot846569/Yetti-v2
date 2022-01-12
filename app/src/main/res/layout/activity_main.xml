@@ -205,10 +205,11 @@
 
     <TextView
         android:id="@+id/selectedTime"
-        android:layout_width="53dp"
-        android:layout_height="27dp"
+        android:layout_width="117dp"
+        android:layout_height="24dp"
         android:layout_marginBottom="272dp"
         android:text="8:15"
+        android:textAlignment="center"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView6"
@@ -219,15 +220,15 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Your Selected Alarm Time is at"
+        android:layout_width="187dp"
+        android:layout_height="33dp"
+        android:text="Your Selected Alarm Time For Today is at"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintHorizontal_bias="0.044"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/highscore"
-        app:layout_constraintVertical_bias="0.04000002" />
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,11 +9,12 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
 public class AlarmReceiver extends BroadcastReceiver {
+    public static String randomStr;
 
     @Override
     public void onReceive(Context context, Intent intent) {
         String[] array = context.getResources().getStringArray(R.array.NotificationText);
-        String randomStr = array[new Random().nextInt(array.length)];
+        randomStr = array[new Random().nextInt(array.length)];
 
         Intent i = new Intent(context,notiscreen.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
