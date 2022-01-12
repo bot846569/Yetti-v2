@@ -37,7 +37,7 @@ public class MainActivity2 extends AppCompatActivity {
     private int questionCountTotal;
     private Question currentQuestion;
 
-    private int score;
+    private int score = 1000;
     private boolean answered;
     private long backPressedTime;
 
@@ -108,7 +108,7 @@ public class MainActivity2 extends AppCompatActivity {
         int answerNr = rbGroup.indexOfChild(rbSelected) + 1;
 
         if (answerNr == currentQuestion.getAnswerNr()) {
-            score++;
+            score=score-20;
             textViewScore.setText("Score: " + score);
         }
 

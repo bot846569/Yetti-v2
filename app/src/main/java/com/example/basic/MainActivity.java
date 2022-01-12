@@ -39,11 +39,24 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        button = (Button) findViewById(R.id.button5);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openHowitworks();
+            }
+        });
+
     }
     public void openActivity2() {
         Intent intent = new Intent(this, MainActivity2.class);
         startActivityForResult(intent,REQUEST_CODE_QUIZ);
     }
+    public void openHowitworks() {
+        Intent intent = new Intent(this, howitworks.class);
+        startActivityForResult(intent,REQUEST_CODE_QUIZ);
+    }
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
@@ -51,8 +64,8 @@ public class MainActivity extends AppCompatActivity {
 
         if(requestCode == REQUEST_CODE_QUIZ);{
             if (resultCode == RESULT_OK) {
-                int score = data.getIntExtra(MainActivity2.EXTRA_SCORE, 0);
-                if (score > highscore) {
+                int score = data.getIntExtra(MainActivity2.EXTRA_SCORE, 1000);
+                if (score < highscore) {
                     updateHighscore(score);
                 }
             }
@@ -60,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private void loadHighscore() {
         SharedPreferences prefs = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
-        highscore = prefs.getInt(KEY_HIGHSCORE, 0);
+        highscore = prefs.getInt(KEY_HIGHSCORE, 1000);
         textViewHighscore.setText("" + highscore);
     }
 

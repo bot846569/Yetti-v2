@@ -11,10 +11,12 @@
         android:theme="@style/Theme.Basic">
         <activity
             android:name=".howitworks"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Yetti: The Planet Saver"/>
         <activity
             android:name=".MainActivity2"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Yetti: The Planet Saver"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

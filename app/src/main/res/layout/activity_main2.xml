@@ -46,11 +46,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Option 2" />
+
         <RadioButton
             android:id="@+id/radio_button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Option 3" />
+            android:text="Option 3"
+            android:visibility="gone" />
     </RadioGroup>
 
     <Button
